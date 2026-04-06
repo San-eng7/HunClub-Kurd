@@ -230,7 +230,7 @@ const translations = {
 
         feature1: "کوالێتی بەرز",
         feature2: "گەیاندن گرەنتیە",
-        feature3: "کەمترین نرخی گەیاندن",
+        feature3: " نرخی گەیاندن",
         feature4: "نرخی گونجاو",
         feature5: "متمانەی کڕیاران",
         feature6: "قەرەبووی پارە",
