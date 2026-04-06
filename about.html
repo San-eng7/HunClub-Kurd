@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY SHOP </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<section class="header" id="header">
+     
+    <div class="logo">
+        <a href="#"><img src="/img/BG/LOgo.png" alt="HunClub Logo"></a>
+    </div>
+
+    <div class="language-switcher" translate="no">
+    <!-- REAL select (used by your JS translator) -->
+    <select id="language-select">
+        <option value="en">English</option>
+        <option value="ku">کوردی</option>
+        <option value="ar">عربي</option>
+    </select>
+
+    <!-- Custom UI -->
+    <div class="selected-language">
+        <img src="/img/flag/UK-flag.jpg">
+        <span>English</span>
+    </div>
+
+    <div class="language-list">
+
+        <div class="language-item" data-value="en">
+            <img src="/img/flag/UK-flag.jpg">
+            English
+        </div>
+
+        <div class="language-item" data-value="ku">
+            <img src="/img/flag/kurdstan flag.png">
+            کوردی
+        </div>
+
+        <div class="language-item" data-value="ar">
+            <img src="/img/flag/iraq-flag.jpg">
+            عربي
+        </div>
+
+    </div>
+
+</div>
+
+     <div>
+        <ul class="navbar" id="navbar">
+            <li><a id="nav-home" href="index.html">Home</a></li>
+            <li><a id="nav-shop" href="shop.html">Shop</a></li>
+            <li><a id="nav-blog" href="blog.html">Blog</a></li>
+            <li><a id="nav-about" class="active" href="about.html">About</a></li>
+            <li><a id="nav-contact" href="contact.html">Contact us</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+            <a href="#" id="close"><i class='bx bx-x'></i></a>
+        </ul>
+     </div>
+
+     <div id="mobile">
+        <a href=""><i class='bx bx-shopping-bag'></i></a>
+        <i id="bar" class='bx bx-menu'></i>
+    </div>
+     
+</section>
+
+<section class="page-header about-header">
+    <h2 id="aboutpage-title">About Our Store</h2>
+
+    <p id="aboutpage-text">
+        Learn more about our project and the journey behind this online store.
+    </p>
+</section>
+
+<section id="about-head" class="section-p1">
+    <img src="img/about/about-our-store.jpg">
+
+    <div>
+        <h2 id="aboutstore-title">About Our Stores</h2>
+
+        <p id="aboutstore-text1">
+        This website is an online store where customers can explore and discover different products. Our goal is to make online shopping simple, accessible, and convenient for everyone
+        </p>
+
+        <p id="aboutstore-text2">
+        We focus on providing a smooth online experience and continuously improving the platform as we grow
+        </p>
+
+        <br><br>
+
+        <marquee id="aboutstore-marquee" bgcolor="#ccc" loop="-1" scrollamount="5">
+        Our goal is to create a simple and reliable online shopping experience for everyone.
+        </marquee>
+    </div>
+</section>
+
+<section id="about-me" class="section-p1">
+    <img src="img/about/about-me.jpg">
+
+    <div>
+        <h2 id="creator-title">About the Creator</h2>
+
+        <p id="creator-text1">
+        This website was created by a Computer Science student from
+        <a href="https://su.edu.krd/" target="_blank">Salahadin University – Erbil</a>
+        and finished school at Soran High School who is passionate about learning web development and building real-world projects
+        </p>
+
+        <p id="creator-text2">
+        The project was developed as part of a personal journey to learn programming, design modern websites, and explore the world of technology
+        </p>
+
+        <br><br>
+
+        <marquee id="creator-marquee" bgcolor="#ccc" loop="-1" scrollamount="5">
+        Our goal is to create a simple and reliable online shopping experience for everyone.
+        </marquee>
+    </div>
+</section>
+
+<section id="contact-details" class="section-p1">
+
+    <div class="details">
+
+        <span id="soran-label">Service Area</span>
+
+        <h2 id="soran-city">Soran</h2>
+
+        <h3 id="soran-desc">
+        Customers in Soran can easily order our products through our online store.
+        We proudly serve customers across Iraq.
+        </h3>
+
+        <div>
+
+            <li>
+                <i class='bx bx-envelope'></i>
+                <p>@sanshelby99.com</p>
+            </li>
+
+            <li>
+                <i class='bx bx-time-five'></i>
+
+                <p id="soran-time">
+                Saturday – Thursday<br>
+                9:00 AM – 12:00 AM
+                </p>
+
+            </li>
+
+        </div>
+
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51212.80813124838!2d44.
+        49638916546961!3d36.6552495645551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4004284404eb0639%3A0xf2445b34fe67f6f6!2sSoran%2C%20Erbil%20Governorate!5e0!3m2!1sen!2siq!4v1773327328361!5m2!1sen!2siq" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<section id="contact-erbil" class="section-p1">
+
+    <div class="details">
+
+        <span id="erbil-label">Service Area</span>
+
+        <h2 id="erbil-city">Erbil</h2>
+
+        <h3 id="erbil-desc">
+        Our products are available for customers in Erbil and surrounding areas.
+        Orders are accepted online from anywhere in Iraq.
+        </h3>
+
+        <div>
+
+            <li>
+                <i class='bx bx-envelope'></i>
+                <p>@sanshelby99.com</p>
+            </li>
+
+            <li>
+                <i class='bx bx-time-five'></i>
+
+                <p id="erbil-time">
+                Saturday – Thursday<br>
+                9:00 AM – 12:00 AM
+                </p>
+
+            </li>
+
+        </div>
+
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103029.21861319343!2d43.9200769469308!3d36.199074943290334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+        .1!3m3!1m2!1s0x400722fe13443461%3A0x3e01d63391de79d1!2sErbil%2C%20Erbil%20Governorate!5e0!3m2!1sen!2siq!4v1773327387723!5m2!1sen!2siq"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<section id="ouersocial" class="section-p1 section-m1">
+    <div id="paraghraf">
+        <h4 id="social-title">Our Social Media</h4>
+        <p id="social-desc">
+            Order directly from our</p>
+            <p><span>Instagram & TikTok</span></p>      
+    </div>
+
+    <div class="form">
+        <a href=""><i class='bx bxl-tiktok tiktok'></i></a>
+        <a href=""><i class='bx bxl-instagram instagram'></i></a>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img style="width:100px;" class="logo" src="/img/IMG_7136.PNG" alt="">
+        <h4 id="footer-contact">Contact</h4>
+        <p id="footer-address">Address: Erbil & soran</p>
+        <p>
+            <strong id="footer-hours-label">Hours:</strong>
+            <span id="footer-hours">9:00 AM - 1:00 AM everyday</span>
+        </p>
+        <p>
+            <strong id="footer-delivery-label">Delivery:</strong>
+            <span id="footer-delivery">Monday • Thursday • Saturday</span>
+        </p>
+        <div class="follow">
+            <h4 id="footer-follow">Follow us</h4>
+
+            <div class="icon">
+                <a href="" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4 id="footer-about">About</h4>
+
+        <a id="footer-aboutus" href="#">About us</a>
+        <a id="footer-deliveryinfo" href="#">Delivery information</a>
+        <a id="footer-privacy" href="#">Privacy Policy</a>
+        <a id="footer-terms" href="#">Terms & Conditions</a>
+        <a id="footer-contactus" href="#">Contact Us</a>
+    </div>
+
+    <div class="col install">
+        <h4 id="footer-store">Our Online Store</h4>
+
+        <p id="footer-text1">Quality products with delivery across Kurdistan and Iraq.</p>
+        <p id="footer-text2">To order, send us a message onp <p>TikTok Instagram.</p></p>
+        <p id="footer-text3">We usually reply within a few minutes.</p>
+        <p id="footer-text4">If you have any questions about our products or delivery,</p>
+        <p id="footer-text5">feel free to contact us through our social media pages.</p>
+    </div>
+
+    <div class="copyright">
+        <p id="footer-copy">© 2026 Sanhan - HTML CSS Ecommerce Website</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
