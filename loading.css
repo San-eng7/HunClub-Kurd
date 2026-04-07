@@ -568,33 +568,6 @@ body.loading {
   }
 }
 
-@media (max-width: 799px) {
-  .wrapper {
-    transform: scale(1.2) translate(-50%, -50%);
-    top: 65%; 
-  }
-
-  .candles {
-    width: 220px;
-    height: 130px;
-  }
-
-  .floor {
-    width: 300px;
-    top: 55%; 
-  }
-}
-
-@media (max-width: 477px) {
-  .wrapper {
-    transform: scale(1.05) translate(-50%, -50%);
-    top: 68%;
-  }
-
-  .candles {
-    width: 200px;
-    height: 120px;
-  }
 
   .floor {
     width: 260px;
