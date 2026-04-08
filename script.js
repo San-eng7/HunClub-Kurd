@@ -661,7 +661,7 @@ translate("product-patch", translations[lang].productPatch);
 translate("product-moov", translations[lang].productMoov);
 translate("product-speaker", translations[lang].productSpeaker);
 translate("product-goat-desc", translations[lang].goatDesc);
-translate("product-goat-desc", translations[lang].goatDesc);
+translate("product-collagen-desc", translations[lang].collagenDesc);
 translate("product-desc-1", translations[lang].p1);
 translate("product-desc-2", translations[lang].p2);
 translate("product-desc-3", translations[lang].p3);
