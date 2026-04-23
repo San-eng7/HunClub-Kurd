@@ -658,7 +658,7 @@ translate("product-perfume-men", translations[lang].productPerfumeMen);
 translate("product-donkey", translations[lang].productDonkey);
 translate("product-cream", translations[lang].productCream);
 translate("product-makeup", translations[lang].productMakeup);
-translate("product-Gloss", translations[lang].productGloss);
+translate("product-lipgloss-desc", translations[lang].productLipglossDesc);
 translate("product-patch", translations[lang].productPatch);
 translate("product-moov", translations[lang].productMoov);
 translate("product-speaker", translations[lang].productSpeaker);
