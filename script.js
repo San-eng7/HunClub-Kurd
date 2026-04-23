@@ -242,7 +242,7 @@ const translations = {
 
         productCleaner: "پاکەرەوەی زیرەک و سمارت",
         productCerave: " غسول سیراڤی فەڕەنسی",
-        productTeeth: "مەحجونی هۆلیود، سپیکردن",
+        productTeeth: "مەعجونی هۆلیود، سپیکردن",
         productAirfreshDesc: "سپیکردنی ددان و تەندروستتر",
         productSoap: "تایبات بە زیپکە، پەڵە ،سپیکردن،حەساسیە",
         productVitamin: "غسول :پێستی ڕووناک و تازە دەکات ",
