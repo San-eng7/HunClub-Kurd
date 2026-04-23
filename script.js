@@ -65,6 +65,7 @@ const translations = {
         productDonkey: "Softens & smooths your skin",
         productCream: "Moisturizes & softens skin",
         productMakeup: "Smooth & natural finish",
+        productGloss: "Glossy & radiant lips",
         productPatch: "Fast relief for muscle pain",
         productMoov: "Relieves muscle & joint pain",
         productSpeaker: "Portable powerful sound",
@@ -91,8 +92,6 @@ const translations = {
         perfume3: "Man perfume",
         perfume4: "Man perfume",
         perfume5: "Man perfume",
-        perfume6: "Avoids bad smells",
-        perfume7: "Avoid bad smells",
         perfume8: "Woman perfume",
         perfume9: "Man perfume",
         perfume10: "Man perfume",     
@@ -242,17 +241,18 @@ const translations = {
         productSubtitle: "بۆ بینینی هەموو بەرهەمەکان، کیک لە زیاتر ببینە بکە",
 
         productCleaner: "پاکەرەوەی زیرەک و سمارت",
-        productCerave: " خسول سیراڤی فەڕەنسی",
+        productCerave: " غسول سیراڤی فەڕەنسی",
         productTeeth: "مەحجونی هۆلیود، سپیکردن",
         productAirfreshDesc: "سپیکردنی ددان و تەندروستتر",
         productSoap: "تایبات بە زیپکە، پەڵە ،سپیکردن،حەساسیە",
-        productVitamin: "خسول :پێستی ڕووناک و تازە دەکات ",
+        productVitamin: "غسول :پێستی ڕووناک و تازە دەکات ",
         productArgan: "دژە هەڵوەرین، بەهێزکردن و درەوشان",
         productPerfumeWomen: "بۆنی خانمان",
         productPerfumeMen: "بۆنی پیاوان",
-        productDonkey: "خسول: پێستی نەرم و سپی دەکات",
+        productDonkey: "غسول: پێستی نەرم و سپی دەکات",
         productCream: "شێدارکەرەوە:پێستی سپی و نەرم دەکات",
         productMakeup: "دەرکەوتنێکی سرووشتی و نەرم",
+        productGloss: "لێوی بریقەدارتر و درەوشاوەتر".
         productPatch: "ئازادکردنی خێرای ئازاری ماسولکە",
         productMoov: "ئازاری ماسولکە و جومگە کەم دەکات",
         p1: "شێدارکەرەوە: ڕووناکی و تەندروست بۆ پێست ",
@@ -261,7 +261,7 @@ const translations = {
         collagenDesc: "ڕووناک دەکات و پشتگیری کۆلاجن",
         p2: "دەست پاک دەکات و پێست نەرم دەکات",
         p3: "دەمخۆشی تازە و ددان پاک",
-        p4: "بۆ ئینتهاباتی پوک ، برین،خاوێنیش",
+        p4: "بۆ ئینتهاباتی پوک ، برین، خاوێنیش",
         p5: "دەمخۆشی تازە و ددان پاک",
         p6: "بۆنی دەم خۆش دەکات، خاوێنی ",
         p7: "زۆر گونجاوە بۆ پێستی چەور",
@@ -279,8 +279,6 @@ const translations = {
         perfume3: "بۆ پیاوان",
         perfume4: "بۆ پیاوان",
         perfume5: "بۆ خانمان",
-        perfume6: "ڕێگری دەکات لە بۆنی خراپ",
-        perfume7: "ڕێگری دەکات لە بۆنی خراپ",
         perfume8: "بۆ خانمان",
         perfume9: "بۆ پیاوان",
         perfume10: "بۆ پیاوان",
@@ -306,7 +304,7 @@ const translations = {
         shopHeaderTitle: "جوانکاری و کۆسمەتیک",
         shopHeaderSubtitle: "کۆمەڵەی بەرهەمە جوانکاری و پێویستییەکانی جوانی ببینە.",
 
-        electronicsHeaderTitle: "ئامێری ئەلکترۆنیەکان ",
+        electronicsHeaderTitle: "ئامێرە ئەلکترۆنیەکان ",
         electronicsHeaderSubtitle: "نوێترین بەرهەمە ئەلیکترۆنیەکان ببینە کە بۆ بەکارهێنانی ڕۆژانە و ئاسانکاری دروستکراون.",
 
         perfumeHeaderTitle: "کۆمەڵەی بۆنەکان",
@@ -440,6 +438,7 @@ const translations = {
         productDonkey: "ينعم ويجعل بشرتك ناعمة",
         productCream: "يرطب ويجعل البشرة ناعمة",
         productMakeup: "مظهر ناعم وطبيعي",
+        productGloss: "شفاه لامعة ومشرقة",
         productPatch: "تخفيف سريع لآلام العضلات",
         productMoov: "يخفف آلام العضلات والمفاصل",
         productSpeaker: "صوت قوي محمول",
@@ -466,8 +465,6 @@ const translations = {
         perfume3: "عطر رجالي",
         perfume4: "عطر رجالي",
         perfume5: "عطر رجالي",
-        perfume6: "يمنع الروائح الكريهة",
-        perfume7: "يمنع الروائح الكريهة",
         perfume8: "عطر نسائي",
         perfume9: "عطر رجالي",
         perfume10: "عطر رجالي",
@@ -661,6 +658,7 @@ translate("product-perfume-men", translations[lang].productPerfumeMen);
 translate("product-donkey", translations[lang].productDonkey);
 translate("product-cream", translations[lang].productCream);
 translate("product-makeup", translations[lang].productMakeup);
+translate("product-Gloss", translations[lang].productGloss);
 translate("product-patch", translations[lang].productPatch);
 translate("product-moov", translations[lang].productMoov);
 translate("product-speaker", translations[lang].productSpeaker);
