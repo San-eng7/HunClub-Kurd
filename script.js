@@ -241,7 +241,7 @@ const translations = {
         productSubtitle: "بۆ بینینی هەموو بەرهەمەکان، کیک لە زیاتر ببینە بکە",
 
         productCleaner: "پاکەرەوەی زیرەک و سمارت",
-        productCerave: " غسول سیراڤی فەڕەنسی",
+        productCerave: " غسول و شێدارکەرەوەی سیراڤی فەڕەنسی",
         productTeeth: "مەعجونی هۆلیود، سپیکردن",
         productAirfreshDesc: "سپیکردنی ددان و تەندروستتر",
         productSoap: "تایبات بە زیپکە، پەڵە ،سپیکردن،حەساسیە",
