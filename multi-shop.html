@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY SHOP </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="header" id="header">
+     
+    <div class="logo">
+         <a href="#"><img src="img/BG/Logo 2 image.png" alt="HunClub Logo"></a>
+    </div>
+
+    <div class="language-switcher" translate="no">
+    <!-- REAL select (used by your JS translator) -->
+    <select id="language-select">
+        <option value="en">English</option>
+        <option value="ku">کوردی</option>
+        <option value="ar">عربي</option>
+    </select>
+
+    <!-- Custom UI -->
+    <div class="selected-language">
+        <img src="img/flag/UK-flag.jpg">
+        <span>English</span>
+    </div>
+
+    <div class="language-list">
+
+        <div class="language-item" data-value="en">
+            <img src="img/flag/UK-flag.jpg">
+            English
+        </div>
+
+        <div class="language-item" data-value="ku">
+            <img src="img/flag/kurdstan flag.png">
+            کوردی
+        </div>
+
+        <div class="language-item" data-value="ar">
+            <img src="img/flag/iraq-flag.jpg">
+            عربي
+        </div>
+
+    </div>
+
+</div>
+
+     <div>
+        <ul class="navbar" id="navbar">
+            <li><a id="nav-home" href="index.html">Home</a></li>
+            <li class="has-dropdown">
+                <a id="nav-shop" href="shop.html" class="dropdown-toggle">Shop <i class='bx bx-chevron-down dropdown-icon'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a id="nav-shop-single" href="shop.html">Single Shop</a></li>
+                    <li><a id="nav-shop-multi" href="multi-shop.html">Multi Shop</a></li>
+                </ul>
+            </li>
+            <li><a id="nav-blog" href="blog.html">Blog</a></li>
+            <li><a id="nav-about" href="about.html">About</a></li>
+            <li><a id="nav-contact" href="contact.html">Contact us</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+            <a href="#" id="close"><i class='bx bx-x'></i></a>
+        </ul>
+     </div>
+
+     <div id="mobile">
+        <a href=""><i class='bx bx-shopping-bag'></i></a>
+        <i id="bar" class='bx bx-menu'></i>
+    </div>
+     
+</section>
+
+<section class="page-header dozen-shop">
+    <h2 id="">Dozen Pack</h2>
+    <p id="">More products, better value perfect for bulk buyers and resellers</p>
+</section>
+
+<section id="product1" class="section-p1">
+    <div class="pro-container">
+
+         <div class="pro">
+                    <img src="img/product/cosmetices/papaya_dozen.JPG">
+                    <div class="des">
+                        <span>france Papaya Dozen Soap</span>
+                        <h5 id="product-desc-9">Bright & glowing skin</h5>
+                        <h4>29,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/vitamin-c-dozen.JPG">
+                    <div class="des">
+                        <span>france vitamin C dozen soap</span>
+                        <h5 id="product-desc-10">Bright & radiant skin</h5>
+                        <h4>29,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+           <div class="pro">
+                    <img src="img/product/cosmetices/vitamin-E-dozen.JPG">
+                    <div class="des">
+                        <span>vitamin E dozen Soap</span>
+                        <h5 id="product-desc-11">Hydrated & elastic skin</h5>
+                        <h4>20,000 IQD </h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/Goat-soap-dozen.JPG">
+                    <div class="des">
+                        <span>Goat dozen soap dozen</span>
+                         <h5 id="product-goat-desc">Soft & whitening</h5>
+                        <h4>21,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+             <div class="pro">
+                    <img src="img/product/cosmetices/white-rice-soap.JPG">
+                    <div class="des">
+                        <span>france White Rice Soap france</span>
+                        <h5 id="product-desc-7">Bright & smooth skin</h5>
+                        <h4>29,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/black-rice-soap.JPG">
+                    <div class="des">
+                        <span>Black Rice hair Soap</span>
+                        <h5 id="product-desc-8">Bright & smooth skin</h5>
+                        <h4>27,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/Collagen-soap.JPG">
+                    <div class="des">
+                        <span>Collagen Fcaial soap</span>
+                        <h5 id="product-soap">Clear & smooth skin & Healthy</h5>
+                        <h4>21,000 IQD </h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/colagen-soap-2.JPG">
+                    <div class="des">
+                        <span>Collagen Ross hair Soap</span>
+                        <h5 id="product-desc-12">Soft & glowing skin</h5>
+                        <h4>30,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+              <div class="pro">
+                    <img src="img/product/cosmetices/new-TC-soap.JPG">
+                    <div class="des">
+                        <span>Turmeric No Soap france</span>
+                        <h5 id="product-desc-13">Bright & clear skin</h5>
+                        <h4>29,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+             <div class="pro">
+                    <img src="img/product/cosmetices/Facial Soap-cucumber.JPG">
+                    <div class="des">
+                        <span>Facial Soap Cucumber</span>
+                        <h5 id="product-desc-14">Fresh & soothing skin</h5>
+                        <h4>20,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/Turmeric soap.JPG">
+                    <div class="des">
+                        <span>Turmeric soap</span>
+                        <h5 id="product-desc-15">Fresh & soothing skin</h5>
+                        <h4>20,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+             <div class="pro">
+                    <img src="img/product/cosmetices/Facial Soap-milk.JPG">
+                    <div class="des">
+                        <span>Favial soap Milk Plus</span>
+                        <h5 id="product-desc-16">Soft & nourished skin</h5>
+                        <h4>21,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+             <div class="pro">
+                    <img src="img/product/cosmetices/Air-sun-dozenE.JPG">
+                    <div class="des">
+                        <span>Air sun Freshness dozen</span>
+                        <h5 id="product-airfresh-desc">Whiter & healthier teeth</h5>
+                        <h4>30,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/Air-sun-Dozen.JPG">
+                    <div class="des">
+                        <span>Air sun Alovera</span>
+                        <h5 id="product-desc-4">Healthy gums & fresh breath</h5>
+                        <h4>30,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+              <div class="pro">
+                    <img src="img/product/cosmetices/TSYF-teeth.JPG">
+                    <div class="des">
+                        <span>TSYF whiting dozen</span>
+                        <h5 id="product-teeth">Whiter & cleaner teeth</h5>
+                        <h4>30,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                    <img src="img/product/cosmetices/TSFT-white.JPG">
+                    <div class="des">
+                        <span>TSYF Normal</span>
+                        <h5 id="product-desc-3">Fresh breath & clean teeth</h5>
+                        <h4>29,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+             <div class="pro">
+                    <img src="img/product/cosmetices/Extra fresh teeth.JPG">
+                    <div class="des">
+                        <span>Air sun Extra Fresh</span>
+                        <h5 id="product-desc-6">Fresh breath & cavity protection</h5>
+                        <h4>25,000 IQD</h4>
+                    </div>
+                    <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/product/perfum/bone-bnbal-asaee.JPG">
+                <div class="des">
+                    <span>Sport fresh perfum master quality</span>
+                    <h5> 6 piece</h5>
+                    <h4>15,000 IQD</h4>
+                </div>
+                <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/product/perfum/bone-bnbal-sport.JPG">
+                <div class="des">
+                    <span>Sport fresh perfum master quality</span>
+                    <h5>6 piece</h5>
+                    <h4>18,000 IQD</h4>
+                </div>
+                <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>   
+    </div>
+
+</section>
+
+<section id="ouersocial" class="section-p1 section-m1">
+    <div id="paraghraf">
+        <h4 id="social-title">Our Social Media</h4>
+        <p id="social-desc">
+            Order directly from our</p>
+            <p><span>Instagram & TikTok</span></p>      
+    </div>
+
+    <div class="form">
+        <a href="https://www.tiktok.com/@hun_clubstore?_r=1&_t=ZS-95F8sROkps5" target="_blank"><i class='bx bxl-tiktok tiktok'></i></a>
+        <a href="https://www.instagram.com/hun_club_?igsh=MXVyOGR4djJyMzljdw%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram instagram'></i></a>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img style="width:100px;" class="logo" src="img/BG/LOgo.png" alt="ouer Logo brand">
+        <h4 id="footer-contact">Contact</h4>
+        <p id="footer-address">Address: Erbil & soran</p>
+        <p>
+            <strong id="footer-hours-label">Hours:</strong>
+            <span id="footer-hours">9:00 AM - 1:00 AM everyday</span>
+        </p>
+        <p>
+            <strong id="footer-delivery-label">Delivery:</strong>
+            <span id="footer-delivery">Monday • Thursday • Saturday</span>
+        </p>
+        <div class="follow">
+            <h4 id="footer-follow">Follow us</h4>
+
+            <div class="icon">
+                <a href="https://www.instagram.com/hun_club_?igsh=MXVyOGR4djJyMzljdw%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.tiktok.com/@hun_clubstore?_r=1&_t=ZS-95F8sROkps5" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4 id="footer-about">About</h4>
+
+        <a id="footer-aboutus" href="#">About us</a>
+        <a id="footer-deliveryinfo" href="#">Delivery information</a>
+        <a id="footer-privacy" href="#">Privacy Policy</a>
+        <a id="footer-terms" href="#">Terms & Conditions</a>
+        <a id="footer-contactus" href="#">Contact Us</a>
+    </div>
+
+    <div class="col install">
+        <h4 id="footer-store">Our Online Store</h4>
+
+        <p id="footer-text1">Quality products with delivery across Kurdistan and Iraq.</p>
+        <p id="footer-text2">To order, send us a message onp <p>TikTok Instagram.</p></p>
+        <p id="footer-text3">We usually reply within a few minutes.</p>
+        <p id="footer-text4">If you have any questions about our products or delivery,</p>
+        <p id="footer-text5">feel free to contact us through our social media pages.</p>
+    </div>
+
+    <div class="copyright">
+        <p id="footer-copy">© 2026 Ecommerce Website</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
