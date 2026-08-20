@@ -57,7 +57,13 @@
      <div>
         <ul class="navbar" id="navbar">
             <li><a id="nav-home" href="index.html">Home</a></li>
-            <li><a id="nav-shop"  class="active" href="shop.html">Shop</a></li>
+             <li class="has-dropdown">
+                <a id="nav-shop" href="shop.html" class="dropdown-toggle">Shop <i class='bx bx-chevron-down dropdown-icon'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a id="nav-shop-single" href="shop.html">Single Shop</a></li>
+                    <li><a id="nav-shop-multi" href="multi-shop.html">Multi Shop</a></li>
+                </ul>
+            </li>
             <li><a id="nav-blog" href="blog.html">Blog</a></li>
             <li><a id="nav-about" href="about.html">About</a></li>
             <li><a id="nav-contact" href="contact.html">Contact us</a></li>
@@ -355,7 +361,7 @@
                     <a href="#"><i class='bx bx-cart cart'></i></a>
             </div>
 
-                     <div class="pro">
+            <div class="pro">
                     <img src="img/product/cosmetices/Facial Soap-milk.JPG">
                     <div class="des">
                         <span>Favial soap Milk Plus</span>
@@ -374,8 +380,25 @@
                     </div>
                     <a href="#"><i class='bx bx-cart cart'></i></a>
             </div>
-            
-            
+    </div>
+
+    <div class="btn-container">
+     <a href="multi-shop.html">
+        <button class="animated-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+            <path
+            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+            ></path>
+            </svg>
+            <span class="text" id="btn-see-dozen">see dozen</span>
+            <span class="circle"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+            <path
+            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+            ></path>
+            </svg>
+        </button>
+        </a>
     </div>
 
 </section> 
