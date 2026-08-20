@@ -14,6 +14,31 @@ if (close) {
     });
 }
 
+// Shop dropdown: Single Shop / Multi Shop
+const shopDropdown = document.querySelector('.has-dropdown');
+const shopToggle = document.querySelector('.dropdown-toggle');
+
+if (shopDropdown && shopToggle) {
+    shopToggle.addEventListener('click', (e) => {
+        e.preventDefault(); // clicking "Shop" opens the two options instead of navigating
+        shopDropdown.classList.toggle('open');
+    });
+
+    // close the dropdown when tapping/clicking anywhere else
+    document.addEventListener('click', (e) => {
+        if (!shopDropdown.contains(e.target)) {
+            shopDropdown.classList.remove('open');
+        }
+    });
+
+    // close the dropdown whenever the mobile side menu is closed
+    if (close) {
+        close.addEventListener('click', () => {
+            shopDropdown.classList.remove('open');
+        });
+    }
+}
+
 //loading scrren
 window.addEventListener("load", function () {
   const loader = document.getElementById("loader");
@@ -38,6 +63,8 @@ const translations = {
         blog: "Blog",
         about: "About",
         contact: "Contact us",
+        shopSingle: "Single Shop",
+        shopMulti: "Shop by Dozen",
 
         whyTitle: "Why Shop With Us",
         
@@ -206,6 +233,7 @@ const translations = {
         helperDesc: "<span>HELPER: 1</span>Marketing Manager responsible for managing the website.<br>Website Administrator",
 
         seeMore: "See More",
+        seeDozen: "See dozen",
 
         blogHeaderTitle: "Read More",
         blogHeaderSubtitle: "Read all case studies about our products",
@@ -225,6 +253,8 @@ const translations = {
         blog: "بلۆگ",
         about: "دەربارە",
         contact: "پەیوەندی",
+        shopSingle: "فرۆشگای تاک",
+        shopMulti: "فرۆشگای درزەن",
 
         heroTitle: "بەخێربێیت بۆ فرۆشگا",
 
@@ -392,6 +422,7 @@ const translations = {
         helperDesc: "<span>یارمەتیدەر: 1</span>بەڕێوەبەری مارکێتینگ بەرپرسیار لە بەڕێوەبردنی ماڵپەڕ.<br>بەڕێوەبەری ماڵپەڕ",
 
         seeMore: "زیاتر ببینە",
+        seeDozen: "بینینی درزەن",
 
         blogHeaderTitle: "زیاتر بخوێنەوە",
         blogHeaderSubtitle: "هەموو توێژینەوەکان دەربارەی بەرهەمەکانمان بخوێنەوە",
@@ -411,6 +442,8 @@ const translations = {
         blog: "المدونة",
         about: "من نحن",
         contact: "اتصل بنا",
+        shopSingle: "المتجر الفردي",
+        shopMulti: "متجر الدزينة",
 
         heroTitle: "مرحباً بكم في المتجر",
 
@@ -592,7 +625,8 @@ const translations = {
 
         blogBtn: "متابعة القراءة",
 
-        seeMore: "شاهد المزيد"
+        seeMore: "شاهد المزيد",
+        seeDozen: "رؤية الدزينة"
     }
 };
 
@@ -614,6 +648,8 @@ translate("nav-shop", translations[lang].shop);
 translate("nav-blog", translations[lang].blog);
 translate("nav-about", translations[lang].about);
 translate("nav-contact", translations[lang].contact);
+translate("nav-shop-single", translations[lang].shopSingle);
+translate("nav-shop-multi", translations[lang].shopMulti);
 
 //hero content
 translate("hero-title", translations[lang].heroTitle);
@@ -797,6 +833,7 @@ translate("input-message", translations[lang].inputMessage, "placeholder");
 translate("helper-desc", translations[lang].helperDesc, "html");
 // button
 translate("btn-see-more", translations[lang].seeMore);
+translate("btn-see-dozen", translations[lang].seeDozen);
 
 // header
 translate("blog-header-title", translations[lang].blogHeaderTitle);
