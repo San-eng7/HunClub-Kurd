@@ -244,7 +244,10 @@ const translations = {
         blog2Title: "Simple Home Essentials for Everyday Comfort",
         blog2Text: "Discover practical products that make your home more comfortable and organized. Small changes can improve your daily life and living space.",
 
-        blogBtn: "Continue Reading",
+        dozenShopTitle: "Dozen Pack",
+        dozenShopSubtitle: "More products, better value — perfect for bulk buyers and resellers",
+
+        blogBtn: "Continue Reading"
 
             },
     ku: {
@@ -433,7 +436,10 @@ const translations = {
         blog2Title: "پێویستییە سادەکانی ماڵ بۆ ئارامی ڕۆژانە",
         blog2Text: "بەرهەمە کارامەکان بدۆزەرەوە کە ماڵەکەت ئارامتر و ڕێکخراوتر دەکەن. گۆڕانکارییە بچووکەکان دەتوانن ژیانت باشتر بکەن.",
 
-        blogBtn: "بەردەوام بخوێنەوە",
+        dozenShopTitle: "پاکەتی درزەن",
+        dozenShopSubtitle: "بەرهەمی زیاتر، نرخێکی باشتر — گونجاو بۆ کڕیارانی کۆمەڵ و فرۆشیارانی دووبارە",
+
+        blogBtn: "بەردەوام بخوێنەوە"
 
     },
     ar: {
@@ -622,6 +628,9 @@ const translations = {
 
         blog2Title: "أساسيات منزلية بسيطة لراحة يومية",
         blog2Text: "اكتشف منتجات عملية تجعل منزلك أكثر راحة وتنظيماً. التغييرات الصغيرة يمكن أن تحسن حياتك اليومية.",
+
+        dozenShopTitle: "عبوة الدزينة",
+        dozenShopSubtitle: "منتجات أكثر، قيمة أفضل — مثالية للمشترين بالجملة وإعادة البيع",
 
         blogBtn: "متابعة القراءة",
 
@@ -843,6 +852,8 @@ translate("blog-header-subtitle", translations[lang].blogHeaderSubtitle);
 translate("blog1-title", translations[lang].blog1Title);
 translate("blog1-text", translations[lang].blog1Text);
 translate("blog1-btn", translations[lang].blogBtn);
+translate("dozen-shop-title", translations[lang].dozenShopTitle);
+translate("dozen-shop-subtitle", translations[lang].dozenShopSubtitle);
 
 // blog 2
 translate("blog2-title", translations[lang].blog2Title);
