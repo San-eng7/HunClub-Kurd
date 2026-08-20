@@ -57,7 +57,13 @@
      <div>
         <ul class="navbar" id="navbar">
             <li><a id="nav-home" href="index.html">Home</a></li>
-            <li><a id="nav-shop" href="shop.html">Shop</a></li>
+              <li class="has-dropdown">
+                <a id="nav-shop" href="shop.html" class="dropdown-toggle">Shop <i class='bx bx-chevron-down dropdown-icon'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a id="nav-shop-single" href="shop.html">Single Shop</a></li>
+                    <li><a id="nav-shop-multi" href="multi-shop.html">Multi Shop</a></li>
+                </ul>
+            </li>
             <li><a id="nav-blog"  class="active" href="blog.html">Blog</a></li>
             <li><a id="nav-about" href="about.html">About</a></li>
             <li><a id="nav-contact" href="contact.html">Contact us</a></li>
