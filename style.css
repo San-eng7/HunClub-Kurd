@@ -229,8 +229,8 @@ body{
     content: none;
 }
 
-.dropdown-toggle.active::after,
-.dropdown-toggle:hover::after{
+.navbar li a.dropdown-toggle.active::after,
+.navbar li a.dropdown-toggle:hover::after{
     content: none;
 }
 
