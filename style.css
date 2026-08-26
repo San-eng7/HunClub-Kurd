@@ -229,6 +229,11 @@ body{
     content: none;
 }
 
+.dropdown-toggle.active::after,
+.dropdown-toggle:hover::after{
+    content: none;
+}
+
 /* Desktop floating dropdown panel (default, same as the rest of the file) */
 .dropdown-menu{
     position: absolute;
