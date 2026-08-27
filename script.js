@@ -98,6 +98,7 @@ const translations = {
         productSpeaker: "Portable powerful sound",
         goatDesc: "Soft & whitening",
         collagenDesc: "Brightens & supports collagen",
+        collagenPackDesc: "Complete collagen skincare routine",
         p1: "Brightens & improves skin appearance",
         p2: "Cleans hands & hydrates skin",
         p3: "Fresh breath & clean teeth",
@@ -292,6 +293,7 @@ const translations = {
         productSpeaker: "دەنگێکی بەهێز و ٧ دەنگی هەیە",
         goatDesc: "نەرمی و سپیبوون",
         collagenDesc: "ڕووناک دەکات و پشتگیری کۆلاجن",
+        collagenPackDesc: "ڕوتینی تەواوی چاودێری پێستی کۆلاجین",
         p2: "دەست پاک دەکات و پێست نەرم دەکات",
         p3: "دەمخۆشی تازە و ددان پاک",
         p4: "بۆ ئینتهاباتی پوک ، برین، خاوێنیش",
@@ -483,6 +485,7 @@ const translations = {
         productSpeaker: "صوت قوي محمول",
         goatDesc: "نعومة وتفتيح",
         collagenDesc: "تفتيح ودعم الكولاجين",
+        collagenPackDesc: "روتين كامل للعناية بالبشرة بالكولاجين",
         p1: "يفتح ويحسن مظهر البشرة",
         p2: "ينظف اليدين ويرطب البشرة",
         p3: "نفس منعش وأسنان نظيفة",
@@ -709,6 +712,7 @@ translate("product-moov", translations[lang].productMoov);
 translate("product-speaker", translations[lang].productSpeaker);
 translate("product-goat-desc", translations[lang].goatDesc);
 translate("product-collagen-desc", translations[lang].collagenDesc);
+translate("collagen-pack-desc", translations[lang].collagenPackDesc);
 translate("product-desc-1", translations[lang].p1);
 translate("product-desc-2", translations[lang].p2);
 translate("product-desc-3", translations[lang].p3);
