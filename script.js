@@ -87,6 +87,7 @@ const translations = {
         productTeeth: "Whiter & cleaner teeth",
         productAirfreshDesc: "Whiter & healthier teeth",
         productSoap: "Clear, smooth & healthy skin",
+        fullOrganicSoapDesc: "98% organic & gentle on your skin",
         productVitamin: "Brighten & refresh your skin",
         vitaminCSuncreamDesc: "Brightens & protects your skin",
         productArgan: "Repair, strengthen, shine",
@@ -295,6 +296,7 @@ const translations = {
         productTeeth: "مەعجونی هۆلیود، سپیکردن",
         productAirfreshDesc: "سپیکردنی ددان و تەندروستتر",
         productSoap: "تایبات بە زیپکە، پەڵە ،سپیکردن،حەساسیە",
+         fullOrganicSoapDesc: "٩٨٪ ئۆرگانیک و نەرم و میهرەبانە بۆ پێست",
         productVitamin: "غسول :پێستی ڕووناک و تازە دەکات ",
         vitaminCSuncreamDesc: "دژە خۆر: پێست ڕووناک و پارێزراو دەکات",
         productArgan: "دژە هەڵوەرین، بەهێزکردن و درەوشان",
@@ -505,6 +507,7 @@ const translations = {
         productTeeth: "أسنان أكثر بياضًا ونظافة",
         productAirfreshDesc: "أسنان أكثر بياضًا وصحة",
         productSoap: "بشرة صافية وناعمة وصحية",
+        fullOrganicSoapDesc: "عضوي بنسبة 98% ولطيف على بشرتك",
         productVitamin: "تفتيح وإنعاش البشرة",
         vitaminCSuncreamDesc: "يفتح ويحمي بشرتك",
         productArgan: "إصلاح وتقوية ولمعان",
@@ -747,6 +750,7 @@ translate("product-cerave", translations[lang].productCerave);
 translate("product-teeth", translations[lang].productTeeth);
 translate("product-airfresh-desc", translations[lang].productAirfreshDesc);
 translate("product-soap", translations[lang].productSoap);
+translate("full-organic-soap-desc", translations[lang].fullOrganicSoapDesc);
 translate("product-vitamin", translations[lang].productVitamin);
 translate("vitamin-c-suncream-desc", translations[lang].vitaminCSuncreamDesc);
 translate("product-argan", translations[lang].productArgan);
