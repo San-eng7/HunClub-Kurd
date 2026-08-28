@@ -79,14 +79,28 @@ const translations = {
 
         productTitle: "Some of Our Products",
         productSubtitle: "To see all products, click the button",
-
+        gingerKeratinShampooDesc: "Strengthens hair & helps reduce shedding",
+        miniSadorArganDesc: "Nourishes & strengthens your hair",
+        sadorToothpasteDesc: "Fresh breath & clean teeth",
         productCleaner: "Smart & effortless cleaning",
         productCerave: "Blue & green",
         productTeeth: "Whiter & cleaner teeth",
         productAirfreshDesc: "Whiter & healthier teeth",
         productSoap: "Clear, smooth & healthy skin",
         productVitamin: "Brighten & refresh your skin",
+        vitaminCSuncreamDesc: "Brightens & protects your skin",
         productArgan: "Repair, strengthen, shine",
+        whiteningSoapDesc: "Brightens & smooths your skin",
+        collagenFaceCreamDesc: "Moisturizes & nourishes your skin",
+        collagenFaceSerumDesc: "Hydrates & supports healthy skin",
+        collagenSuncreamDesc: "Protects & nourishes your skin",
+        collagenPackDesc: "Complete collagen skincare routine",
+        collagenEyecreamDesc: "Moisturizes & cares for the under-eye area",
+         collagenMassageEyeDesc: "Electric massage & under-eye care",
+        eyeMaskDesc: "Refreshes & cares for the under-eye area",
+        collagenNeckcreamDesc: "Massage & moisturize your neck",
+        sadorPackDesc: "Complete Sador skincare routine",
+        iceBodycreamDesc: "Fresh & pleasant body scent",
         productPerfumeWomen: "Women's perfume",
         productPerfumeMen: "Men's perfume",
         productDonkey: "Softens & smooths your skin",
@@ -94,10 +108,12 @@ const translations = {
         productMakeup: "Smooth & natural finish",
         productLipglossDesc: "Glossy & radiant lips",
         productPatch: "Fast relief for muscle pain",
+        collagenToothpasteDesc: "Fresh breath & clean teeth",
         productMoov: "Relieves muscle & joint pain",
         productSpeaker: "Portable powerful sound",
         goatDesc: "Soft & whitening",
         collagenDesc: "Brightens & supports collagen",
+        
         collagenPackDesc: "Complete collagen skincare routine",
         p1: "Brightens & improves skin appearance",
         p2: "Cleans hands & hydrates skin",
@@ -280,7 +296,10 @@ const translations = {
         productAirfreshDesc: "سپیکردنی ددان و تەندروستتر",
         productSoap: "تایبات بە زیپکە، پەڵە ،سپیکردن،حەساسیە",
         productVitamin: "غسول :پێستی ڕووناک و تازە دەکات ",
+        vitaminCSuncreamDesc: "دژە خۆر: پێست ڕووناک و پارێزراو دەکات",
         productArgan: "دژە هەڵوەرین، بەهێزکردن و درەوشان",
+        gingerKeratinShampooDesc: "قژ بەهێز دەکات و یارمەتی کەمکردنەوەی هەڵوەرین دەدات",
+        miniSadorArganDesc: "قژ خۆراک دەدات و بەهێزی دەکات",
         productPerfumeWomen: "بۆنی خانمان",
         productPerfumeMen: "بۆنی پیاوان",
         productDonkey: "غسول: پێستی نەرم و سپی دەکات",
@@ -288,11 +307,25 @@ const translations = {
         productMakeup: "دەرکەوتنێکی سرووشتی و نەرم",
         productLipglossDesc: "لێوی بریقەدارتر و درەوشاوەتر",
         productPatch: "ئازادکردنی خێرای ئازاری ماسولکە",
+        collagenToothpasteDesc: "هەناسەی تازە و ددانی پاک",
+        sadorToothpasteDesc: "هەناسەی تازە و ددانی پاک",
         productMoov: "ئازاری ماسولکە و جومگە کەم دەکات",
         p1: "شێدارکەرەوە: ڕووناکی و تەندروست بۆ پێست ",
         productSpeaker: "دەنگێکی بەهێز و ٧ دەنگی هەیە",
         goatDesc: "نەرمی و سپیبوون",
         collagenDesc: "ڕووناک دەکات و پشتگیری کۆلاجن",
+        whiteningSoapDesc: "پێست ڕووناک و نەرم دەکات",
+        collagenFaceCreamDesc: "پێست شێدار دەکات چرچ و لۆچی ناهێلێ",
+        collagenFaceSerumDesc: "پێست شێدار دەکات و پشتگیری تەندروستی پێست دەکات",
+        collagenSuncreamDesc: "پێست دەپارێزێت و خۆراکی دەدات",
+        collagenSuncreamDesc: "پێست دەپارێزێت و خۆراکی دەدات",
+        collagenPackDesc: "ڕوتینی تەواوی چاودێری پێستی کۆلاجین",
+        sadorPackDesc: "سادۆر ڕوتینی تەواوی چاودێری پێستی ",
+        collagenEyecreamDesc: "ناوچەی ژێرچاو شێدار و چاودێری دەکات",
+        collagenMassageEyeDesc: "مەساجی کارەبا و کرێمی ژێرچاو",
+        collagenNeckcreamDesc: "کرێم و مەساجی شێدارکردنی مل",
+        eyeMaskDesc: "ناوچەی ژێرچاو چاودێری و تازە دەکات",
+        iceBodycreamDesc: "بۆنێکی تازە و خۆشی جەستە",
         collagenPackDesc: "ڕوتینی تەواوی چاودێری پێستی کۆلاجین",
         p2: "دەست پاک دەکات و پێست نەرم دەکات",
         p3: "دەمخۆشی تازە و ددان پاک",
@@ -473,7 +506,10 @@ const translations = {
         productAirfreshDesc: "أسنان أكثر بياضًا وصحة",
         productSoap: "بشرة صافية وناعمة وصحية",
         productVitamin: "تفتيح وإنعاش البشرة",
+        vitaminCSuncreamDesc: "يفتح ويحمي بشرتك",
         productArgan: "إصلاح وتقوية ولمعان",
+        gingerKeratinShampooDesc: "يقوي الشعر ويساعد على تقليل تساقطه",
+        miniSadorArganDesc: "يغذي الشعر ويقويه",
         productPerfumeWomen: "عطر نسائي",
         productPerfumeMen: "عطر رجالي",
         productDonkey: "ينعم ويجعل بشرتك ناعمة",
@@ -481,10 +517,22 @@ const translations = {
         productMakeup: "مظهر ناعم وطبيعي",
         productLipglossDesc: "لێوی براق و درەوشاوە",
         productPatch: "تخفيف سريع لآلام العضلات",
+        collagenToothpasteDesc: "نَفَس منعش وأسنان نظيفة",
+        sadorToothpasteDesc: "نَفَس منعش وأسنان نظيفة",
         productMoov: "يخفف آلام العضلات والمفاصل",
         productSpeaker: "صوت قوي محمول",
         goatDesc: "نعومة وتفتيح",
         collagenDesc: "تفتيح ودعم الكولاجين",
+        whiteningSoapDesc: "يفتح البشرة وينعمها",
+        collagenFaceCreamDesc: "يرطب ويغذي البشرة",
+        collagenFaceSerumDesc: "يرطب البشرة ويدعم صحتها",
+        collagenPackDesc: "روتين كامل للعناية بالبشرة بالكولاجين",
+        sadorPackDesc: "سادور روتين كامل للعناية بالبشرة من ",
+        collagenEyecreamDesc: "يرطب ويعتني بمنطقة تحت العين",
+        collagenMassageEyeDesc: "تدليك كهربائي وعناية بمنطقة تحت العين",
+        collagenNeckcreamDesc: "لتدليك وترطيب الرقبة",
+        eyeMaskDesc: "ينعش ويعتني بمنطقة تحت العين",
+        iceBodycreamDesc: "رائحة منعشة وجميلة للجسم",
         collagenPackDesc: "روتين كامل للعناية بالبشرة بالكولاجين",
         p1: "يفتح ويحسن مظهر البشرة",
         p2: "ينظف اليدين ويرطب البشرة",
@@ -700,7 +748,10 @@ translate("product-teeth", translations[lang].productTeeth);
 translate("product-airfresh-desc", translations[lang].productAirfreshDesc);
 translate("product-soap", translations[lang].productSoap);
 translate("product-vitamin", translations[lang].productVitamin);
+translate("vitamin-c-suncream-desc", translations[lang].vitaminCSuncreamDesc);
 translate("product-argan", translations[lang].productArgan);
+translate("ginger-keratin-shampoo-desc", translations[lang].gingerKeratinShampooDesc);
+translate("mini-sador-argan-desc", translations[lang].miniSadorArganDesc); 
 translate("product-perfume-women", translations[lang].productPerfumeWomen);
 translate("product-perfume-men", translations[lang].productPerfumeMen);
 translate("product-donkey", translations[lang].productDonkey);
@@ -708,10 +759,23 @@ translate("product-cream", translations[lang].productCream);
 translate("product-makeup", translations[lang].productMakeup);
 translate("product-lipgloss-desc", translations[lang].productLipglossDesc);
 translate("product-patch", translations[lang].productPatch);
+translate("collagen-toothpaste-desc", translations[lang].collagenToothpasteDesc);
+translate("sador-toothpaste-desc", translations[lang].sadorToothpasteDesc);  
 translate("product-moov", translations[lang].productMoov);
 translate("product-speaker", translations[lang].productSpeaker);
 translate("product-goat-desc", translations[lang].goatDesc);
 translate("product-collagen-desc", translations[lang].collagenDesc);
+translate("whitening-soap-desc", translations[lang].whiteningSoapDesc);
+translate("collagen-face-cream-desc", translations[lang].collagenFaceCreamDesc);
+translate("collagen-face-serum-desc", translations[lang].collagenFaceSerumDesc);
+translate("collagen-suncream-desc", translations[lang].collagenSuncreamDesc);
+translate("collagen-pack-desc", translations[lang].collagenPackDesc);
+translate("collagen-eyecream-desc", translations[lang].collagenEyecreamDesc);
+translate("collagen-massage-eye-desc", translations[lang].collagenMassageEyeDesc);
+translate("eye-mask-desc", translations[lang].eyeMaskDesc);
+translate("collagen-neckcream-desc", translations[lang].collagenNeckcreamDesc);
+translate("sador-pack-desc", translations[lang].sadorPackDesc);
+translate("ice-bodycream-desc", translations[lang].iceBodycreamDesc);    
 translate("collagen-pack-desc", translations[lang].collagenPackDesc);
 translate("product-desc-1", translations[lang].p1);
 translate("product-desc-2", translations[lang].p2);
